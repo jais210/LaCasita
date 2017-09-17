@@ -1,0 +1,156 @@
+		body{
+		background-color: white;
+		margin:0;
+		padding: 0;
+		}
+		.contenedor {
+	    margin: 0;
+	    padding: 0;
+	    background-color: white;
+	    
+
+	}
+
+	.sol {
+		width: 100px;
+		height: 100px;
+		background: yellow;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position: absolute;
+		left: 80px;
+		top:20px;
+	}
+	.pasto{
+		width: 1150px;
+		height: 100px;
+		background: green;
+		position:absolute;
+		left:50px;
+		bottom:20px;
+	}
+
+	.casa{
+		width: 450px;
+		height: 300px;
+		background: brown;
+		position:absolute;
+		left: 600px;
+		bottom:90px;
+	}
+	.puerta{
+		width: 150px;
+		height: 220px;
+		background: darkgrey;
+		position:absolute;
+		left:50px;
+		bottom:0px;
+	}
+	.corazon {
+	    position: relative;
+	    width: 100px;
+	    height: 90px;
+	    left: 24px;
+	    top:32px
+	}
+	.corazon:before,
+	.corazon:after {
+	    position: absolute;
+	    content: "";
+	    left: 50px;
+	    top: 0;
+	    width: 50px;
+	    height: 80px;
+	    background: crimson;
+	    -moz-border-radius: 50px 50px 0 0;
+	    border-radius: 50px 50px 0 0;
+	    -webkit-transform: rotate(-45deg);
+	       -moz-transform: rotate(-45deg);
+	        -ms-transform: rotate(-45deg);
+	         -o-transform: rotate(-45deg);
+	            transform: rotate(-45deg);
+	    -webkit-transform-origin: 0 100%;
+	       -moz-transform-origin: 0 100%;
+	        -ms-transform-origin: 0 100%;
+	         -o-transform-origin: 0 100%;
+	            transform-origin: 0 100%;
+	}
+	.corazon:after {
+	    left: 0;
+	    -webkit-transform: rotate(45deg);
+	       -moz-transform: rotate(45deg);
+	        -ms-transform: rotate(45deg);
+	         -o-transform: rotate(45deg);
+	            transform: rotate(45deg);
+	    -webkit-transform-origin: 100% 100%;
+	       -moz-transform-origin: 100% 100%;
+	        -ms-transform-origin: 100% 100%;
+	         -o-transform-origin: 100% 100%;
+	            transform-origin :100% 100%;
+	}
+
+	.ventana {
+		width: 100px;
+		height: 100px;
+		background: deeppink;
+		position:absolute;
+		right: 90px;
+		top:100px;
+	}
+
+	.techo {
+		border-bottom: 200px solid black;
+		border-left: 80px solid transparent;
+		border-right: 80px solid transparent;
+		height: 200px;
+		width: 350px;
+		position:absolute;
+		right: 200px;
+		bottom:390px;
+	}
+	.chimenea{
+		width: 50px;
+		height: 100px;
+		background: crimson;
+		position:absolute;
+		right: 10px;
+		top:250px;
+
+	}
+
+	.humoUno{
+		width: 35px;
+		height: 35px;
+		background: darkgray;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position:absolute;
+		right: 270px;
+		top:110px;
+	}
+
+	.humoDos{
+		width: 35px;
+		height: 35px;
+		background: darkgray;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position:absolute;
+		right: 230px;
+		top:85px;
+	}
+
+	.humoTres{
+		width: 35px;
+		height: 35px;
+		background: darkgray;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position:absolute;
+		right: 190px;
+		top:60px;
+	}
